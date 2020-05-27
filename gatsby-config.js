@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Photon",
+    title: "Surender",
     author: "Hunter Chang",
     description: "A Gatsby.js Starter based on Photon by HTML5 UP"
   },
@@ -15,7 +15,7 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
+        icon: 'src/assets/images/pic.png', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-sass',

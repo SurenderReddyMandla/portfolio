@@ -1,18 +1,21 @@
 import React from 'react'
-
+import pic from '../assets/images/pic.png'
 class Header extends React.Component {
     render() {
         return (
             <section id="header">
                 <div className="inner">
-                    <span className="icon major fa-cloud"></span>
-                    <h1>Hi, I'm <strong>Photon</strong>, another fine<br />
-                    little freebie from <a href="http://html5up.net">HTML5 UP</a>.</h1>
-                    <p>Accumsan feugiat mi commodo erat lorem ipsum, sed magna<br />
-                    lobortis feugiat sapien sed etiam volutpat accumsan.</p>
+                    <span ><img src={pic} alt="" className="profilepic"/></span>
+                    <h1><p>Thank you for your visit.</p>
+                    I'm <strong>Surender Mandla</strong></h1>
+                    
                     <ul className="actions">
-                        <li><a href="#one" className="button scrolly">Discover</a></li>
+                        <li>
+                        <a href="#one" className="button scrolly">Know More About Me</a>
+                        </li>
+                      
                     </ul>
+                    
                 </div>
             </section>
         )

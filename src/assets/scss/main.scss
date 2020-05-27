@@ -216,19 +216,20 @@
 		}
 
 		&.major {
-			margin: 0 0 (_size(element-margin) * 0.5) 0;
-
+			margin: 1em 0 (_size(element-margin) * 0.75) 0;
+			text-align: center;
 			&:after {
 				background: _palette(border);
 				content: '';
 				display: inline-block;
 				height: 1px;
-				margin-top: (_size(element-margin) * 0.75);
+				//margin-top: (_size(element-margin) * 0.5);
 				width: 6em;
 			}
 
 			h2, h3, h4, h5, h6 {
 				margin: 0;
+			
 			}
 
 			p {
@@ -916,17 +917,24 @@
 /* Main */
 
 	.main {
-		@include padding(6em, 0);
+		@include padding(3em, 0);
 
 		&.style1 {
 			background: _palette(bg);
+			&.intro{
+				text-align: center;
+				margin-top: -4em;
+			}
 		}
 
 		&.style2 {
 			@include dark(#333);
 			background-attachment:	fixed,							fixed;
-			background-image:		url('../images/overlay1.png'),		url('../images/header.jpg');
+			background-image:		url('../images/overlay2.png'),		url('../images/overlay3.svg'),		linear-gradient(45deg, _palette(accent1-alt) 5%, _palette(accent1-alt) 30%, _palette(accent1-alt));
 			background-size:		auto,							cover;
+			&.intro{
+				margin-top: -5em;
+			}
 		}
 	}
 
@@ -955,15 +963,7 @@
 			margin: (_size(element-margin) * 1.25) 0 0 0;
 			position: relative;
 
-			&:after {
-				background: _palette(dark, border);
-				content: '';
-				height: 100vh;
-				left: 50%;
-				position: absolute;
-				top: 100%;
-				width: 1px;
-			}
+		
 		}
 
 		.inner {
@@ -992,6 +992,10 @@
 			position: absolute;
 			top: 0;
 			width: 100%;
+		}
+		.profilepic{
+			height: 17rem;
+			width: 17rem;
 		}
 	}
 
@@ -1392,3 +1396,5 @@
 			}
 
 	}
+
+	

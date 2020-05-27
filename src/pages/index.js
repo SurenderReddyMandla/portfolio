@@ -10,46 +10,50 @@ import pic04 from '../assets/images/pic04.jpg'
 
 class Homepage extends React.Component {
     render() {
-        const siteTitle = "Gatsby Starter - Photon";
+        const siteTitle = "surender";
 
         return (
             <Layout>
                 <Helmet title={siteTitle} />
 
                 <section id="one" className="main style1">
-                    <div className="grid-wrapper">
-                        <div className="col-6">
                             <header className="major">
-                                <h2>Lorem ipsum dolor adipiscing<br />
-                                amet dolor consequat</h2>
-                            </header>
-                            <p>Adipiscing a commodo ante nunc accumsan et interdum mi ante adipiscing. A nunc lobortis non nisl amet vis sed volutpat aclacus nascetur ac non. Lorem curae et ante amet sapien sed tempus adipiscing id accumsan.</p>
-                        </div>
-                        <div className="col-6">
-                            <span className="image fit"><img src={pic01} alt="" /></span>
-                        </div>
-                    </div>
+                            
+                                <h2><strong>About</strong></h2>
+                            </header><br />
+                        <div className="main style1 intro">
+                            <h2>I'm a full-stack web developer based in Canada</h2>
+                            <h3>I have passion for learning new technologies</h3>
+                            <h3>I have knowledge about Web development and Embedded systems development</h3>
+                        </div>  
                 </section>
 
                 <section id="two" className="main style2">
                     <div className="grid-wrapper">
-                        <div className="col-6">
-                            <ul className="major-icons">
-                                <li><span className="icon style1 major fa-code"></span></li>
-                                <li><span className="icon style2 major fa-bolt"></span></li>
-                                <li><span className="icon style3 major fa-camera-retro"></span></li>
-                                <li><span className="icon style4 major fa-cog"></span></li>
-                                <li><span className="icon style5 major fa-desktop"></span></li>
-                                <li><span className="icon style6 major fa-calendar"></span></li>
-                            </ul>
-                        </div>
+                    <div className="col-6">
+                    <header className="major">
+                        <h2>Experience</h2>
+                    </header>
+                   <p><strong>COMPANY:&nbsp;&nbsp;<a href="https://www.archents.com/" target="_blank"> Archents</a></strong></p>
+                    <p>I Worked here for 4 years as a software developer in different <br/> projects involving technologies like Web development, Blockchain Technology and Robotic Process Automation</p><br/>
+                    <p><strong>COMPANY:&nbsp;&nbsp;<a href="https://www.fanshawec.ca/" target="_blank"> Fanshawe College</a></strong></p>
+                    <p>I worked as a contract tutor in the department of Electronics and Embedded systems development for 7 months </p>
+                </div>
+                <div className="col-6">
+                    <header className="major">
+                        <h2>Experience</h2>
+                    </header>
+                   <p><strong>COMPANY:&nbsp;&nbsp;<a href="https://www.archents.com/" target="_blank"> Archents</a></strong></p>
+                    <p>I Worked here for 4 years as a software developer in different <br/> projects involving technologies like Web development, Blockchain Technology and Robotic Process Automation</p><br/>
+                    <p><strong>COMPANY:&nbsp;&nbsp;<a href="https://www.fanshawec.ca/" target="_blank"> Fanshawe College</a></strong></p>
+                    <p>I worked as a contract tutor in the department of Electronics and Embedded systems development for 7 months </p>
+                </div>
                         <div className="col-6">
                             <header className="major">
-                                <h2>Lorem ipsum dolor adipiscing<br />
-                                amet dolor consequat</h2>
+                                <h2>Projects</h2>
                             </header>
-                            <p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
-                            <p>Blandit faucibus proin. Ac aliquam integer adipiscing enim non praesent vis commodo nunc phasellus cubilia ac risus accumsan. Accumsan blandit. Lobortis phasellus non lobortis dit varius mi varius accumsan lobortis. Blandit ante aliquam lacinia lorem lobortis semper morbi col faucibus vitae integer placerat accumsan orci eu mi odio tempus adipiscing adipiscing adipiscing curae consequat feugiat etiam dolore.</p>
+                            <p>Developed a Single Page Web Application for XPO logistics used for customer communication management</p>
+                            <p>Developed a web application for Yedla company used for Events and client management</p>
                             <p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
                         </div>
                     </div>
