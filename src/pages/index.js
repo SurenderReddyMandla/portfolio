@@ -7,7 +7,10 @@ import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
-
+import badge1 from '../assets/images/Blockchaindev.png'
+import badge2 from '../assets/images/BlockchainEsen.png'
+import badge3 from '../assets/images/ccna.png'
+import cert from '../assets/images/cisco.pdf'
 class Homepage extends React.Component {
     render() {
         const siteTitle = "surender";
@@ -30,32 +33,38 @@ class Homepage extends React.Component {
 
                 <section id="two" className="main style2">
                     <div className="grid-wrapper">
-                    <div className="col-6">
-                    <header className="major">
-                        <h2>Experience</h2>
-                    </header>
-                   <p><strong>COMPANY:&nbsp;&nbsp;<a href="https://www.archents.com/" target="_blank"> Archents</a></strong></p>
-                    <p>I Worked here for 4 years as a software developer in different <br/> projects involving technologies like Web development, Blockchain Technology and Robotic Process Automation</p><br/>
-                    <p><strong>COMPANY:&nbsp;&nbsp;<a href="https://www.fanshawec.ca/" target="_blank"> Fanshawe College</a></strong></p>
-                    <p>I worked as a contract tutor in the department of Electronics and Embedded systems development for 7 months </p>
-                </div>
-                <div className="col-6">
-                    <header className="major">
-                        <h2>Experience</h2>
-                    </header>
-                   <p><strong>COMPANY:&nbsp;&nbsp;<a href="https://www.archents.com/" target="_blank"> Archents</a></strong></p>
-                    <p>I Worked here for 4 years as a software developer in different <br/> projects involving technologies like Web development, Blockchain Technology and Robotic Process Automation</p><br/>
-                    <p><strong>COMPANY:&nbsp;&nbsp;<a href="https://www.fanshawec.ca/" target="_blank"> Fanshawe College</a></strong></p>
-                    <p>I worked as a contract tutor in the department of Electronics and Embedded systems development for 7 months </p>
-                </div>
+                        
                         <div className="col-6">
                             <header className="major">
-                                <h2>Projects</h2>
+                                <h2>Professional Skills</h2>
                             </header>
-                            <p>Developed a Single Page Web Application for XPO logistics used for customer communication management</p>
-                            <p>Developed a web application for Yedla company used for Events and client management</p>
-                            <p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
+                            <p><strong>Programming Languages:&nbsp;&nbsp;</strong>C++, Java, Javascript, Typescript, C#</p>
+                            <p><strong> Operating Systems:&nbsp;&nbsp;</strong>Windows, Linux(Ubuntu and Kali)</p>
+                            <p><strong>Front-End Technologies:&nbsp;&nbsp;</strong>Angular, AngularJs, Angular Material, HTML, CSS, Bootstrap, ReactJS</p>
+                            <p><strong>Back-End Technologies:&nbsp;&nbsp;</strong>NodeJS, ExpressJS, ASP.Net core</p>
+                            <p><strong>Database Servers:&nbsp;&nbsp;</strong>MSSQL, MySql</p>
+                            <p><strong>Build Tools:&nbsp;&nbsp;</strong>NPM, Grunt, Gulp</p>
+                            <p><strong>	DevOps tools:&nbsp;&nbsp;</strong>Jenkins, Docker, Github, Atlassian tool suite, Azure devops</p>
+                            <p><strong>Version control:&nbsp;&nbsp;</strong>Git, Bitbucket</p>
+                            <p><strong>RPA Tools:&nbsp;&nbsp;</strong>UI Path, Automation Anywhere</p>
                         </div>
+                        <div className="col-6">
+                            <header className="major">
+                                <h2>Experience</h2>
+                            </header>
+                            <p><strong>COMPANY:&nbsp;&nbsp;<a href="https://www.archents.com/" target="_blank"> Archents</a></strong></p>
+                            <p>I Worked here for 4 years as a software developer and done <br/> projects based on Web development, Blockchain Technology and Robotic Process Automation</p><br/>
+                            <p><strong>COMPANY:&nbsp;&nbsp;<a href="https://www.fanshawec.ca/" target="_blank"> Fanshawe College</a></strong></p>
+                            <p>I worked as a contract tutor in the department of Electronics and Embedded systems development for 7 months </p>
+                            <header className="major">
+                                <h2>Education</h2>
+                            </header>
+                            <p><strong>Post Graduation in Information Security Management</strong><br/>Fanshawe college&nbsp;(2019), Ontario, Canada</p>
+                            <p><strong>Post Graduation in Electronics and Embedded Systems development</strong><br/>Fanshawe college&nbsp;(2018), Ontario, Canada</p>
+                            <p><strong>Bachelors of Technology in Electronics and Communications Engineering</strong><br/>Jawaharlal Nehru University&nbsp;(2012-2016), Hyderabad, India</p>
+                        </div>
+                      
+                            
                     </div>
                 </section>
 
@@ -63,33 +72,27 @@ class Homepage extends React.Component {
                     <div className="grid-wrapper">
                         <div className="col-12">
                             <header className="major">
-                                <h2>Adipiscing amet consequat</h2>
+                                <h2>Certifications</h2>
                             </header>
-                            <p>Ante nunc accumsan et aclacus nascetur ac ante amet sapien sed.</p>
+                            
                         </div>
 
                         <div className="col-4">
-                            <span className="image fit"><img src={pic02} alt="" /></span>
-                            <h3>Magna feugiat lorem</h3>
-                            <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                            <span className="image fit"><img src={badge3} alt="" /></span>
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li><a href={cert} className="button" target="_blank">View</a></li>
                             </ul>
                         </div>
                         <div className="col-4">
-                            <span className="image fit"><img src={pic03} alt="" /></span>
-                            <h3>Magna feugiat lorem</h3>
-                            <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                            <span className="image fit"><img src={badge1} alt="" /></span>
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li><a href="https://www.youracclaim.com/badges/cc2fc447-25f4-4aed-bc87-4bf174736862/linked_in_profile" className="button" target="_blank">View</a></li>
                             </ul>
                         </div>
                         <div className="col-4">
-                            <span className="image fit"><img src={pic04} alt="" /></span>
-                            <h3>Magna feugiat lorem</h3>
-                            <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                            <span className="image fit"><img src={badge2} alt="" /></span>
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li><a href="https://www.youracclaim.com/badges/c27401ad-1e23-476d-b678-990d4995802b/linked_in_profile" className="button" target="_blank">View</a></li>
                             </ul>
                         </div>
 
@@ -99,13 +102,11 @@ class Homepage extends React.Component {
                 <section id="four" className="main style2 special">
                     <div className="container">
                         <header className="major">
-                            <h2>Ipsum feugiat consequat?</h2>
+                            <h2>Contact Details</h2>
                         </header>
-                        <p>Sed lacus nascetur ac ante amet sapien.</p>
-                        <ul className="actions uniform">
-                            <li><a href="#" className="button special">Sign Up</a></li>
-                            <li><a href="#" className="button">Learn More</a></li>
-                        </ul>
+                        <p><strong>Phone Number:&nbsp;&nbsp;</strong>+1(548)-388-4089</p>
+                        <p><strong>Email:&nbsp;&nbsp;</strong>surenderreddymandla@gmail.com</p>
+                        
                     </div>
                 </section>
             </Layout>
