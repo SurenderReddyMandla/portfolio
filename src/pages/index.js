@@ -53,9 +53,9 @@ class Homepage extends React.Component {
                                 <h2>Experience</h2>
                             </header>
                             <p><strong>COMPANY:&nbsp;&nbsp;<a href="https://www.archents.com/" target="_blank"> Archents</a></strong></p>
-                            <p>I Worked here for 4 years as a software developer and done <br/> projects based on Web development and also worked on Blockchain Technology and Robotic Process Automation</p><br/>
+                            <p>I Worked here as a software developer and done <br/> projects based on Web development and also worked on Blockchain Technology and Robotic Process Automation</p><br/>
                             <p><strong>COMPANY:&nbsp;&nbsp;<a href="https://www.fanshawec.ca/" target="_blank"> Fanshawe College</a></strong></p>
-                            <p>I worked as a contract tutor in the department of Electronics and Embedded systems development for 7 months </p>
+                            <p>I worked as a contract tutor in the department of Electronics and Embedded systems development</p>
                             <header className="major">
                                 <h2>Education</h2>
                             </header>
