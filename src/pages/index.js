@@ -25,7 +25,7 @@ class Homepage extends React.Component {
                                 <h2><strong>About</strong></h2>
                             </header><br />
                         <div className="main style1 intro">
-                            <h2>I'm a Software developer based in Canada</h2>
+                            <h2>I'm a software developer based in Canada</h2>
                             <h3>I have passion for learning new technologies</h3>
                             <h3>I have knowledge in Web development and Embedded systems development</h3>
                         </div>  
