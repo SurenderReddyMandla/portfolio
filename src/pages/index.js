@@ -38,7 +38,7 @@ class Homepage extends React.Component {
                             <header className="major">
                                 <h2>Professional Skills</h2>
                             </header>
-                            <p><strong>Programming Languages:&nbsp;&nbsp;</strong>C++, Java, Javascript, Typescript, C#</p>
+                            <p><strong>Programming Languages:&nbsp;&nbsp;</strong>C++, Java, Javascript, Typescript</p>
                             <p><strong> Operating Systems:&nbsp;&nbsp;</strong>Windows, Linux(Ubuntu and Kali)</p>
                             <p><strong>Front-End Technologies:&nbsp;&nbsp;</strong>Angular, AngularJs, Angular Material, HTML, CSS, Bootstrap, ReactJS</p>
                             <p><strong>Back-End Technologies:&nbsp;&nbsp;</strong>NodeJS, ExpressJS, ASP.Net core</p>
@@ -59,9 +59,8 @@ class Homepage extends React.Component {
                             <header className="major">
                                 <h2>Education</h2>
                             </header>
-                            <p><strong>Post Graduation in Information Security Management</strong><br/>Fanshawe college&nbsp;(2019), Ontario, Canada</p>
-                            <p><strong>Post Graduation in Electronics and Embedded Systems development</strong><br/>Fanshawe college&nbsp;(2018), Ontario, Canada</p>
-                            <p><strong>Bachelors of Technology in Electronics and Communications Engineering</strong><br/>Jawaharlal Nehru University&nbsp;(2012-2016), Hyderabad, India</p>
+                            <p><strong>Post Graduation in Information Security Management</strong><br/>Fanshawe college, Ontario, Canada</p>
+                            <p><strong>Bachelors of Technology in Electronics and Communications Engineering</strong><br/>Jawaharlal Nehru University, Hyderabad, India</p>
                         </div>
                       
                             
